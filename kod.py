@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pydicom as dicom
 import os
 
-folder_path = 'G:/Edukacja/2020 Studia/Semestr 9/POMwJO/Projekt/BT/KARY1/A/A/A/D'
+folder_path = 'X:/Piotrek/Studia Magisterka/SEMESTR 2/Przetwarzanie Obrazow Medycznych w Jezykach Obiektowych/BT/BT/KARY1/A/A/A/D'
 dicom_files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
 dicom_files.sort()
 
