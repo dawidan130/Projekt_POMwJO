@@ -14,6 +14,7 @@ itk.OutputWindow.SetGlobalWarningDisplay(False)
 no_output = NoOutput.New()
 itk.OutputWindow.SetInstance(no_output)
 
+#dane_obrazowe = "X:/Piotrek/Studia Magisterka/SEMESTR 2/Przetwarzanie Obrazow Medycznych w Jezykach Obiektowych/BT/BT"
 dane_obrazowe = "G:/Edukacja/2020 Studia/Semestr 9/POMwJO/Projekt/BT"
 
 parser = argparse.ArgumentParser(description="Read DICOM tags and visualize selected series.")
